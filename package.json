@@ -1,0 +1,24 @@
+{
+  "name": "application-deploy-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imPranab14/node-application-deploy-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imPranab14/node-application-deploy-github-actions/issues"
+  },
+  "homepage": "https://github.com/imPranab14/node-application-deploy-github-actions#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
