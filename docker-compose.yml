@@ -4,5 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    #port mapping host post => 8090 container port is => 3000
     ports:
-      - "8090:8090"
+      - "3000:8090"
