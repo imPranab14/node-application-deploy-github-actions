@@ -4,7 +4,7 @@ const port = 8090;
 
 // Define a route handler for the default home page
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("App is working fine");
 });
 
 //Home route
