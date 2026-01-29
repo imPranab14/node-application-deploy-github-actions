@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 //Home route
 app.get("/home", (req, res) => {
   res.status(200).send({
-    message:" Welcome to the Home Page of My Node Application",
+    message:"Home Route Working Fine",
     status: "success",
 
   });
